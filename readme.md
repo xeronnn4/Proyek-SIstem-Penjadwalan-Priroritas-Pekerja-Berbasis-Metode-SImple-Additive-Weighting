@@ -35,15 +35,12 @@ git clone [https://github.com/USERNAME_GITHUB_KAMU/NAMA_REPO.git](https://github
 cd NAMA_REPO
 2. Install Dependencies
 Jalankan perintah ini di terminal untuk mengunduh library yang dibutuhkan:
-
 Bash
-
 npm install
+
 3. Jalankan Aplikasi
 Nyalakan server dengan perintah:
-
 Bash
-
 node app.js
 Catatan: Database database.sqlite akan dibuat secara otomatis saat aplikasi pertama kali dijalankan.
 
@@ -64,5 +61,6 @@ Ahmad Rifqiy Aljabar (2510312030)
 Alif Juno Savero (2510312095)
 
 Program Studi Teknik Industri - UPN Veteran Jakarta
+
 
 
