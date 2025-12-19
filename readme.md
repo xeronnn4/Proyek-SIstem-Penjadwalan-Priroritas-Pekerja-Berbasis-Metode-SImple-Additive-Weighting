@@ -8,14 +8,14 @@ Aplikasi ini dibuat sebagai **Final Project / Tugas Besar Mata Kuliah Logika Pem
 
 ---
 
-## 🚀 Fitur Utama
+##  Fitur Utama
 * **Dashboard Ranking:** Menampilkan urutan prioritas karyawan secara otomatis dari skor tertinggi ke terendah.
 * **Input Data Karyawan:** Formulir untuk memasukkan data Jabatan, Performa (1-5), Lama Kerja, dan Skill.
 * **Algoritma Cerdas:** Perhitungan bobot (Weighted Score) berjalan otomatis di sistem backend.
 * **Manajemen Data:** Data karyawan tersimpan aman di database dan bisa dihapus jika tidak diperlukan.
 * **Responsive UI:** Tampilan antarmuka modern menggunakan Bootstrap 5.
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 * **Backend:** Node.js & Express.js
 * **Database:** SQLite3 (Serverless & Ringan)
 * **ORM:** Sequelize (Relational Mapping)
@@ -24,7 +24,7 @@ Aplikasi ini dibuat sebagai **Final Project / Tugas Besar Mata Kuliah Logika Pem
 
 ---
 
-## 💻 Cara Menjalankan Aplikasi
+##  Cara Menjalankan Aplikasi
 
 Karena folder `node_modules` tidak disertakan dalam repository ini (untuk efisiensi), silakan ikuti langkah mudah berikut:
 
@@ -64,4 +64,5 @@ Ahmad Rifqiy Aljabar (2510312030)
 Alif Juno Savero (2510312095)
 
 Program Studi Teknik Industri - UPN Veteran Jakarta
+
 
