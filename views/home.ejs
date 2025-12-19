@@ -1,0 +1,139 @@
+<style>
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .hero-section {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 80px 20px;
+        border-radius: 15px;
+        margin-bottom: 50px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+    
+    .hero-section h1 {
+        font-size: 3.5em;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .hero-section .subtitle {
+        font-size: 1.3em;
+        margin-bottom: 40px;
+        opacity: 0.95;
+    }
+    
+    .button-group {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .btn-custom {
+        padding: 15px 40px;
+        font-size: 1.1em;
+        font-weight: 600;
+        border-radius: 8px;
+        text-decoration: none;
+        color: white;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .btn-dashboard {
+        background: linear-gradient(135deg, #4a90e2, #357abd);
+    }
+    
+    .btn-dashboard:hover {
+        background: linear-gradient(135deg, #357abd, #2a5a8a);
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .btn-add {
+        background: linear-gradient(135deg, #f0a500, #d68600);
+    }
+    
+    .btn-add:hover {
+        background: linear-gradient(135deg, #d68600, #b86e00);
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+        margin-top: 60px;
+    }
+    
+    .feature-card {
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    
+    .feature-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    .feature-card .icon {
+        font-size: 3em;
+        margin-bottom: 15px;
+    }
+    
+    .feature-card h3 {
+        color: #667eea;
+        font-size: 1.3em;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    
+    .feature-card p {
+        color: #666;
+        font-size: 1em;
+        line-height: 1.6;
+    }
+</style>
+
+<div class="hero-section">
+    <h1>Sistem Penjadwalan Kerja</h1>
+    <p class="subtitle">Kelola jadwal karyawan dengan metode SAW (Simple Additive Weighting)</p>
+    <div class="button-group">
+        <a href="/dashboard" class="btn-custom btn-dashboard">
+            <span>📊</span> Lihat Dashboard
+        </a>
+        <a href="/add" class="btn-custom btn-add">
+            <span>➕</span> Tambah Karyawan
+        </a>
+    </div>
+</div>
+
+<div class="features">
+    <div class="feature-card">
+        <div class="icon">📊</div>
+        <h3>Dashboard Interaktif</h3>
+        <p>Lihat ranking karyawan berdasarkan prioritas penjadwalan dengan algoritma SAW yang akurat</p>
+    </div>
+    <div class="feature-card">
+        <div class="icon">👥</div>
+        <h3>Manajemen Karyawan</h3>
+        <p>Tambah, hapus, dan kelola data karyawan dengan mudah dan cepat</p>
+    </div>
+    <div class="feature-card">
+        <div class="icon">⭐</div>
+        <h3>Scoring Otomatis</h3>
+        <p>Sistem scoring otomatis berdasarkan performa, pengalaman, dan skill karyawan</p>
+    </div>
+</div>

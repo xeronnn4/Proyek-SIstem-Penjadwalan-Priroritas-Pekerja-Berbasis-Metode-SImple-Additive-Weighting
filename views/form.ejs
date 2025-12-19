@@ -1,0 +1,57 @@
+<div class="card shadow-lg p-4 border-0">
+    <h4 class="mb-4 text-primary">📝 Form Input Data Karyawan</h4>
+    <form action="/add" method="POST">
+        
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label fw-bold">Nama Lengkap</label>
+                <input type="text" name="name" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label fw-bold">Jabatan</label>
+                <select name="position" class="form-select">
+                    <option value="Staff">Staff</option>
+                    <option value="Supervisor">Supervisor</option>
+                    <option value="Manager">Manager</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3">
+                <label class="form-label">Lama Kerja (Tahun)</label>
+                <input type="number" name="yearsOfService" class="form-control" placeholder="Contoh: 3" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">Jam Tersedia (Jam/Minggu)</label>
+                <input type="number" name="hoursAvailable" class="form-control" placeholder="Contoh: 40" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">Performa (1-5)</label>
+                <input type="number" name="performance" min="1" max="5" class="form-control" placeholder="Rate 1-5" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">Flex Cuti (1-5)</label>
+                <input type="number" name="leaveFlexibility" min="1" max="5" class="form-control" placeholder="Rate 1-5" required>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <label class="form-label">Preferensi Shift</label>
+                <select name="shiftPreference" class="form-select">
+                    <option value="Pagi">Shift Pagi</option>
+                    <option value="Siang">Shift Siang</option>
+                    <option value="Malam">Shift Malam</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Skill Khusus (Jika ada)</label>
+                <input type="text" name="specialSkill" class="form-control" placeholder="Contoh: Forklift / Admin / -">
+                <small class="text-muted">Isi tanda strip (-) jika tidak ada.</small>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100 py-2 fw-bold">💾 Simpan & Hitung Prioritas</button>
+    </form>
+</div>

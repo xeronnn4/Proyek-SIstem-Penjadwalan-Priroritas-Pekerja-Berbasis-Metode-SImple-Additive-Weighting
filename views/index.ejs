@@ -1,0 +1,63 @@
+<div style="margin-bottom: 20px;">
+    <a href="/" style="padding: 10px 25px; background: #6c757d; color: white; text-decoration: none; border-radius: 6px; font-weight: 500; transition: 0.3s;" onmouseover="this.style.background='#5a6268'" onmouseout="this.style.background='#6c757d'">← Kembali ke Home</a>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-hover table-bordered bg-white shadow-sm align-middle">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>Ranking</th>
+                <th>Nama Karyawan</th>
+                <th>Jabatan</th>
+                <th>Lama Kerja</th>
+                <th>Performa</th>
+                <th>Jam/Minggu</th>
+                <th>Shift</th>
+                <th>Skill</th>
+                <th>Skor Prioritas</th> <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <% if(employees.length === 0) { %>
+                <tr><td colspan="10" class="text-muted py-4">Belum ada data. Silakan input dulu!</td></tr>
+            <% } %>
+
+            <% employees.forEach((emp, index) => { %>
+                <tr>
+                    <td class="fw-bold fs-5 text-primary">#<%= index + 1 %></td>
+                    
+                    <td class="text-start fw-bold"><%= emp.name %></td>
+                    
+                    <td>
+                        <% if(emp.position === 'Manager') { %> <span class="badge bg-danger">Manager</span>
+                        <% } else if(emp.position === 'Supervisor') { %> <span class="badge bg-warning text-dark">SPV</span>
+                        <% } else { %> <span class="badge bg-secondary">Staff</span> <% } %>
+                    </td>
+
+                    <td><%= emp.yearsOfService %> Thn</td>
+                    
+                    <td>
+                        <% for(let i=0; i<emp.performance; i++) { %>⭐<% } %> 
+                        (<%= emp.performance %>)
+                    </td>
+
+                    <td><%= emp.hoursAvailable %> Jam</td>
+                    <td><%= emp.shiftPreference %></td>
+                    <td><%= emp.specialSkill %></td>
+                    
+                    <% if(emp.schedules && emp.schedules.length > 0) { %>
+                        <td class="table-success fw-bold fs-5 text-success">
+                            <%= emp.schedules[0].priorityScore %>
+                        </td>
+                    <% } else { %> <td>-</td> <% } %>
+
+                    <td>
+                        <form action="/delete/<%= emp.id %>" method="POST" onsubmit="return confirm('Yakin hapus?');">
+                            <button class="btn btn-sm btn-outline-danger">Hapus</button>
+                        </form>
+                    </td>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</div>
