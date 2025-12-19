@@ -31,9 +31,10 @@ Karena folder `node_modules` tidak disertakan dalam repository ini (untuk efisie
 ### 1. Clone Repository
 Download atau clone project ini ke komputer Anda:
 ```bash
-git clone [https://github.com/xeronnn4/Proyek-SIstem-Penjadwalan-Priroritas-Pekerja-Berbasis-Metode-SImple-Additive-Weighting)
+git clone [https://github.com/xeronnn4/Proyek-SIstem-Penjadwalan-Priroritas-Pekerja-Berbasis-Metode-SImple-Additive-Weighting]
 cd Proyek-SIstem-Penjadwalan-Priroritas-Pekerja-Berbasis-Metode-SImple-Additive-Weighting
-2. Install Dependencies
+
+### 2. Install Dependencies
 Jalankan perintah ini di terminal untuk mengunduh library yang dibutuhkan:
 Bash
 npm install
@@ -61,6 +62,7 @@ Ahmad Rifqiy Aljabar (2510312030)
 Alif Juno Savero (2510312095)
 
 Program Studi Teknik Industri - UPN Veteran Jakarta
+
 
 
 
