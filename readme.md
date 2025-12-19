@@ -31,7 +31,7 @@ Aplikasi ini dibuat sebagai **Final Project / Tugas Besar Mata Kuliah Logika Pem
 Unduh atau clone project ke komputer Anda:
 
 ```bash
-git clone https://github.com/xeronn4/Proyek-Sistem-Penjadwalan-Prioritas-Pekerja-Berbasis-Metode-Simple-Additive-Weighting.git
+git clone https://github.com/xeronn4/Proyek-SIstem-Penjadwalan-Prioritas-Pekerja-Berbasis-Metode-Simple-Additive-Weighting.git
 cd Proyek-Sistem-Penjadwalan-Prioritas-Pekerja-Berbasis-Metode-Simple-Additive-Weighting
 ```
 
@@ -85,6 +85,7 @@ Aplikasi ini dirancang untuk memenuhi kriteria penilaian akademik sebagai beriku
 
 **Program Studi:** Teknik Industri
 **Institusi:** UPN Veteran Jakarta
+
 
 
 
