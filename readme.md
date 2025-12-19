@@ -60,10 +60,8 @@ Modern Tools (CPMK-2): Menggunakan Sequelize ORM dan Async/Await.
 OOP Structure: Menggunakan Class PriorityScheduler (Child) yang mewarisi Class Calculator (Parent).
 
 👥 Anggota Kelompok
-[Nama Lengkap Kamu] ([NIM])
-
-[Nama Anggota 2] ([NIM]) (Hapus jika tidak ada)
-
-[Nama Anggota 3] ([NIM]) (Hapus jika tidak ada)
+Ahmad Rifqiy Aljabar (2510312030)
+Alif Juno Savero (2510312095)
 
 Program Studi Teknik Industri - UPN Veteran Jakarta
+
