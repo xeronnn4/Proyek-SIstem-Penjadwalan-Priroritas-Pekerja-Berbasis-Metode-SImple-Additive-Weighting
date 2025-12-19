@@ -6,8 +6,8 @@ Dibuat untuk memenuhi **Tugas Besar / UAS Mata Kuliah Logika Pemrograman**.
 
 ## 👥 Anggota Tim
 1. **Ahmad Rifqiy Aljabar** - [2510312030]
-2. **Alif Juno Savero** - [2510312095] *(Hapus jika tidak ada)*
-3. **[Nama Anggota 3]** - [NIM] *(Hapus jika tidak ada)*
+2. **Alif Juno Savero** - [2510312095] 
+3. **M.Faren Harozi** - [NIM]
    
 ---
 
@@ -32,7 +32,7 @@ Dibuat untuk memenuhi **Tugas Besar / UAS Mata Kuliah Logika Pemrograman**.
 
 ## 💻 Cara Menjalankan (Installation Guide)
 
-Karena folder `node_modules` tidak disertakan dalam repository ini (untuk efisiensi), silakan ikuti langkah berikut untuk menjalankan aplikasi di komputer Anda:
+Karena folder `node_modules` tidak disertakan dalam repository ini, silakan ikuti langkah berikut untuk menjalankan aplikasi di komputer Anda:
 
 ### 1. Persiapan
 Pastikan komputer Anda sudah terinstall **Node.js**.
@@ -41,4 +41,5 @@ Pastikan komputer Anda sudah terinstall **Node.js**.
 Buka terminal/CMD di dalam folder proyek ini, lalu ketik perintah berikut untuk mendownload library yang dibutuhkan secara otomatis:
 
 ```bash
+
 npm install
