@@ -84,7 +84,8 @@ Aplikasi ini dirancang untuk memenuhi kriteria penilaian akademik sebagai beriku
 * **Alif Juno Savero** (2510312095)
 
 **Program Studi:** Teknik Industri
-**Institusi:** UPN Veteran Jak
+**Institusi:** UPN Veteran Jakarta
+
 
 
 
