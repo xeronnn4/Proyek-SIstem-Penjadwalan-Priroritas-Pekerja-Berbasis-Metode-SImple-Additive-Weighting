@@ -24,44 +24,68 @@ Aplikasi ini dibuat sebagai **Final Project / Tugas Besar Mata Kuliah Logika Pem
 
 ---
 
-##  Cara Menjalankan Aplikasi
+# 📌 Panduan Instalasi Aplikasi
 
-Karena folder `node_modules` tidak disertakan dalam repository ini (untuk efisiensi), silakan ikuti langkah mudah berikut:
+## 1. Clone Repository
 
-### 1. Clone Repository
-Download atau clone project ini ke komputer Anda:
+Unduh atau clone project ke komputer Anda:
+
 ```bash
-git clone https://github.com/xeronnn4/Proyek-SIstem-Penjadwalan-Priroritas-Pekerja-Berbasis-Metode-SImple-Additive-Weighting.git
-cd Proyek-SIstem-Penjadwalan-Priroritas-Pekerja-Berbasis-Metode-SImple-Additive-Weighting
+git clone https://github.com/xeronn4/Proyek-Sistem-Penjadwalan-Prioritas-Pekerja-Berbasis-Metode-Simple-Additive-Weighting.git
+cd Proyek-Sistem-Penjadwalan-Prioritas-Pekerja-Berbasis-Metode-Simple-Additive-Weighting
+```
 
-### 2. Install Dependencies
-Jalankan perintah ini di terminal untuk mengunduh library yang dibutuhkan:
-Bash
+## 2. Install Dependencies
+
+Jalankan perintah berikut untuk mengunduh seluruh library yang dibutuhkan:
+
+```bash
 npm install
+```
 
-3. Jalankan Aplikasi
-Nyalakan server dengan perintah:
-Bash
+## 3. Menjalankan Aplikasi
+
+Jalankan server aplikasi dengan perintah:
+
+```bash
 node app.js
-Catatan: Database database.sqlite akan dibuat secara otomatis saat aplikasi pertama kali dijalankan.
+```
 
-4. Buka di Browser
-Akses aplikasi melalui alamat: http://localhost:3000
+**Catatan:** Database `database.sqlite` akan dibuat otomatis saat aplikasi pertama kali dijalankan.
 
-📚 Konsep Akademis (CPMK)
-Aplikasi ini memenuhi kriteria penilaian akademik:
+## 4. Akses di Browser
 
-Algoritma Matematis (CPMK-1): Menerapkan metode SAW dengan normalisasi dan pembobotan nilai.
+Buka aplikasi melalui browser pada alamat:
 
-Modern Tools (CPMK-2): Menggunakan Sequelize ORM dan Async/Await.
+```
+http://localhost:3000
+```
 
-OOP Structure: Menggunakan Class PriorityScheduler (Child) yang mewarisi Class Calculator (Parent).
+---
 
-👥 Anggota Kelompok
-Ahmad Rifqiy Aljabar (2510312030)
-Alif Juno Savero (2510312095)
+#  Konsep Akademis (CPMK)
 
-Program Studi Teknik Industri - UPN Veteran Jakarta
+Aplikasi ini dirancang untuk memenuhi kriteria penilaian akademik sebagai berikut:
+
+* **Algoritma Matematis (CPMK-1)**
+  Menerapkan metode *Simple Additive Weighting (SAW)* dengan proses normalisasi dan pembobotan nilai.
+
+* **Modern Tools (CPMK-2)**
+  Menggunakan *Sequelize ORM* serta konsep *Async/Await* dalam pengelolaan data.
+
+* **Object Oriented Programming (OOP)**
+  Menerapkan pewarisan kelas, di mana `PriorityScheduler` (Child) mewarisi `Calculator` (Parent).
+
+---
+
+#  Anggota Kelompok
+
+* **Ahmad Rifqiy Aljabar** (2510312030)
+* **Alif Juno Savero** (2510312095)
+
+**Program Studi:** Teknik Industri
+**Institusi:** UPN Veteran Jak
+
 
 
 
